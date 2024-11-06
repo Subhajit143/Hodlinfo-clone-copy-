@@ -1,0 +1,32 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer utilities {
+    .bg-gradient-radial {
+      background: radial-gradient(circle, #03dac6);
+    }
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @layer components {
+    .text-pr {
+        color: rgb(0, 209, 191);
+      }
+    .button-pr{
+      background:  #03dac6;
+    }
+  }
+  
+  
